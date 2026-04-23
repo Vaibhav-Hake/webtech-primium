@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.mainBody{
+    display: flex;
+    justify-content: center;
+    
+}
+.sec1{
+    width: 75%;
+    height: 90vh;
+    /* background-color: blue; */
+}
+nav{
+    /* background-color: red; */
+    border: 1px solid;
+    height: 10vh;
+}
+#nav1{
+    display: flex;
+    justify-content: space-between;
+}
+#nav1>#logo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#nav1>section{
+    display: flex;
+    align-items: center;
+}
+#nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav2>section>input{
+    width: 73%;
+    height: 10%;
+}
