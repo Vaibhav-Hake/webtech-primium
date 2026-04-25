@@ -49,3 +49,12 @@
    text-align: center;
 
 }
+footer{
+    height: 10vh;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-weight: 900;
+}
